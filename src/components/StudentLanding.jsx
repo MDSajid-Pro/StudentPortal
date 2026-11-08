@@ -63,7 +63,7 @@ export default function StudentLanding({ apiBase, onLoginSuccess }) {
       {/* Navigation Bar */}
       <nav className="max-w-7xl w-full mx-auto px-6 py-6 flex items-center justify-between relative z-10">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-linera-to-br from-amber-500 to-amber-600 grid place-items-center text-white font-black shadow-md shadow-amber-500/20">
+          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 grid place-items-center text-white font-black shadow-md shadow-amber-500/20">
             IQ
           </div>
           <div>
