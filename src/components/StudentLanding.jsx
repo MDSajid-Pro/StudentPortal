@@ -48,7 +48,7 @@ export default function StudentLanding({ apiBase, onLoginSuccess }) {
         }
       }
     } catch (err) {
-      setErrorMsg(err.response?.data?.message || 'Invalid credentials. Please check your Roll Number and Phone.');
+      setErrorMsg(err.response?.data?.message);
     } finally {
       setLoading(false);
     }

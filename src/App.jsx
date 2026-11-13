@@ -6,7 +6,7 @@ import StudentPortalDashboard from './components/StudentPortalDashboard';
 
 const App = () => {
   const navigate = useNavigate();
-  const apiBase = "https://attendance-managment-pearl.vercel.app"; // Replace with your backend URL if deployed
+  const apiBase = "http://localhost:5000"; // Replace with your backend URL if deployed
 
   const [studentData, setStudentData] = useState(() => {
     try {
